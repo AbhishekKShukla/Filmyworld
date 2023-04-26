@@ -8,7 +8,7 @@ const Header=()=>{
     const useAppstate=useContext(Appstate);
     return (
         <div className="sticky z-10 header text-2xl flex justify-between text-red-500 font-bold p-1 border-b-2 border-gray-500">
-            <span>Filmy<span className="text-white">Verse</span></span>
+           <Link to='/'> <span>Filmy<span className="text-white">Verse</span></span></Link>
            
            {
             useAppstate.login?
